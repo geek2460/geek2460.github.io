@@ -5,7 +5,9 @@
 
         // Preloader
         $("#preloader").fadeOut(500);
+		
     });
+	
 	
 	
 

@@ -184,32 +184,23 @@
 
 	
     <section id="div3">
-        <div class="container wow slideOutLeft"  data-wow-offset="800" data-wow-duration="3.5s">
-			<div class="row wow slideInRight" data-wow-offset="100" data-wow-duration="2s">
-				<div class="row wow slideInRight" data-wow-offset="200" data-wow-duration="2s">
+        <div class="container animation-element slide-left" >
+			<div class="row" >
+				<div class="row" >
 					<img src="img/picture/pic1.jpg" >
 				</div>
-				<h3 class="text-dark wow slideInRight" data-wow-offset="200" data-wow-duration="2s">胃來玩橙柿</h3>
-				<p class="text-dark wow slideInRight" data-wow-offset="200" data-wow-duration="2s">古早味的柑仔店，陳列的不只是商品，而是每一段我們都記得，都想念的歲月！在這裡，懷舊美食街，滿足你對於過去的依戀，在體驗未來的同時，也能憶起舊時的美好！胃來玩城市，帶你穿梭時空，品嘗回憶！
+				<h3 class="text-dark" >胃來玩橙柿</h3>
+				<p class="text-dark">古早味的柑仔店，陳列的不只是商品，而是每一段我們都記得，都想念的歲月！在這裡，懷舊美食街，滿足你對於過去的依戀，在體驗未來的同時，也能憶起舊時的美好！胃來玩城市，帶你穿梭時空，品嘗回憶！
 				</p>
 			</div>
         </div>
     </section>
 		
-	<section>
-		<div class="container">
-			<br><br><br><br>
-			<br><br><br><br>
-			<br><br><br><br>
-			<br><br><br><br>
-		<div>
-	</section>
-
     
 
     <section id="div4" >
-        <div class="container wow slideOutLeft"  data-wow-offset="1000" data-wow-duration="6s">
-            <div class="row wow slideInRight" data-wow-offset="200" data-wow-duration="2s">
+        <div class="container">
+            <div class="row" >
 				<div>
 					<img src="img/picture/pic2.jpg" >
 				</div>
@@ -225,19 +216,11 @@
         </div>
     </section>
 	
-	<section>
-		<div class="container">
-			<br><br><br><br>
-			<br><br><br><br>
-			<br><br><br><br>
-			<br><br><br><br>
-			<br><br><br><br>
-		<div>
-	</section>
+	
 	
 	<section id="div5" >
-        <div class="container wow slideOutLeft" data-wow-offset="800" data-wow-duration="6s">
-            <div class="row wow slideInRight" data-wow-offset="200" data-wow-duration="2s">
+        <div class="container" >
+            <div class="row" >
 				<div>
 					<img src="img/picture/pic3.jpg" >
 				</div>
@@ -249,15 +232,7 @@
         </div>
     </section>
 	
-	<section>
-		<div class="container">
-			<br><br><br><br>
-			<br><br><br><br>
-			<br><br><br><br>
-			<br><br><br><br>
-			<br><br><br><br>
-		<div>
-	</section>
+	
 	
 	<section id="div6" >
         <div class="container">
@@ -352,6 +327,33 @@
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
 	
+	<script>
+		var $animation_elements = $('.animation-element');
+		var $window = $(window);
+
+		function check_if_in_view() {
+			var window_height = $window.height();
+			var window_top_position = $window.scrollTop();
+			var window_bottom_position = (window_top_position + window_height);
+ 
+			$.each($animation_elements, function() {
+				var $element = $(this);
+				var element_height = $element.outerHeight();
+				var element_top_position = $element.offset().top;
+				var element_bottom_position = (element_top_position + element_height);
+ 
+				//check to see if this current container is within viewport
+				if ((element_bottom_position >= window_top_position) &&(element_top_position <= window_bottom_position)) {
+					$element.addClass('in-view');
+				} else {
+					$element.removeClass('in-view');
+				}
+			});
+		}
+
+$window.on('scroll resize', check_if_in_view);
+$window.trigger('scroll');
+	</script>
 	
 
 </body>

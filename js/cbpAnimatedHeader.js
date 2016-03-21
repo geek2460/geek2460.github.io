@@ -8,10 +8,11 @@
  * Copyright 2013, Codrops
  * http://www.codrops.com
  */
-var AnimatedHeader = (function() {
+var cbpAnimatedHeader = (function() {
 
 	var docElem = document.documentElement,
 		header = document.querySelector( '.navbar-default' ),
+		div3 = document.querySelector( '#div3' ),
 		didScroll = false,
 		changeHeaderOn = 300;
 
@@ -21,17 +22,20 @@ var AnimatedHeader = (function() {
 				didScroll = true;
 				setTimeout( scrollPage, 250 );
 			}
+
 		}, false );
 	}
 
 	function scrollPage() {
 		var sy = scrollY();
+		
 		if ( sy >= changeHeaderOn ) {
-			classie.add( header, 'navbar-shrink' );
+			//classie.add( header, 'navbar-shrink' );
 		}
 		else {
-			classie.remove( header, 'navbar-shrink' );
+			//classie.remove( header, 'navbar-shrink' );
 		}
+		
 		didScroll = false;
 	}
 
@@ -42,3 +46,7 @@ var AnimatedHeader = (function() {
 	init();
 
 })();
+
+
+
+

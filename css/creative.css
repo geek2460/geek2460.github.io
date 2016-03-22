@@ -246,6 +246,16 @@ header {
     -o-background-size: cover;
 	
 }
+.company{
+	width: 300px;
+	min-height: auto;
+	background-image: url(../img/picture/研華.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 
 .speaker1 {
 	width: 300px;

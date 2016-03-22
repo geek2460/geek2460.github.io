@@ -243,6 +243,30 @@ header {
     -o-background-size: cover;
 }
 
+.speaker1 {
+	width: 300px;
+	height: 300px;
+	-moz-border-radius: 600px 600px;
+	-webkit-border-radius:600px 600px;
+	border-radius: 600px 600px;
+    
+    background-image: url(../img/picture/speaker1.png);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.circle{
+	
+	width: 300px;
+	height: 300px;
+	-moz-border-radius: 600px 600px;
+	-webkit-border-radius:600px 600px;
+	border-radius: 600px 600px;
+	
+}
 header .header-content {
     position: relative;
     width: 100%;

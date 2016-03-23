@@ -17,7 +17,7 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: #00ecff;
+    border-color: #D5A658;
     border-width: 3px;
 }
 
@@ -85,7 +85,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #00ecff;
+    background-color: #D5A658;
 }
 
 .bg-dark {
@@ -131,12 +131,12 @@ aside {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
-    color: #00ecff;/** #f05f40 orange color*/
+    color: #D5A658;/** #f05f40 orange color*/
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #00ecff;
+    color: #D5A658;
 }
 
 .navbar-default .nav > li>a,
@@ -149,12 +149,12 @@ aside {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #00ecff;
+    color: #D5A658;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #00ecff!important;
+    color: #D5A658!important;
     background-color: #fff;
 }
 
@@ -177,7 +177,7 @@ aside {
 	/*nav bar brand hover color*/
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-        color: #00ecff;
+        color: #D5A658;
     }
 
 	/*nav bar item color*/
@@ -189,7 +189,7 @@ aside {
 	/*nav bar item  hover color*/
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
-        color: #00ecff;
+        color: #D5A658;
     }
 
     .navbar-default.affix {
@@ -204,7 +204,7 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #00ecff;
+        color: #D5A658;
     }
 
     .navbar-default.affix .nav > li>a,
@@ -214,7 +214,7 @@ aside {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #00ecff;
+        color: #D5A658;
     }
 }
 
@@ -224,13 +224,33 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.gif);
+    
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
+
+.header{
+	background-image: url(../img/ISEEGIF.gif);
+	
+}
+
+.temp-section1{
+    
+    background-image: url(../img/picture/temp-section2.gif);
+    
+}
+
+.temp-section2 {
+    
+    background-image: url(../img/picture/pic2.jpg);
+    
+}
+
+
+
 .unknown{
 	width: 300px;
 	height: 300px;

@@ -17,7 +17,7 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: #D5A658;
+    border-color: #F2B02A;
     border-width: 3px;
 }
 
@@ -85,7 +85,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #D5A658;
+    background-color: #F2B02A;
 }
 
 .bg-dark {
@@ -131,12 +131,12 @@ aside {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
-    color: #D5A658;/** #f05f40 orange color*/
+    color: #F2B02A;/** #f05f40 orange color*/
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #D5A658;
+    color: #F2B02A;
 }
 
 .navbar-default .nav > li>a,
@@ -149,12 +149,12 @@ aside {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #D5A658;
+    color: #F2B02A;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #D5A658!important;
+    color: #F2B02A!important;
     background-color: #fff;
 }
 
@@ -177,7 +177,7 @@ aside {
 	/*nav bar brand hover color*/
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-        color: #D5A658;
+        color: #F2B02A;
     }
 
 	/*nav bar item color*/
@@ -189,7 +189,7 @@ aside {
 	/*nav bar item  hover color*/
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
-        color: #D5A658;
+        color: #F2B02A;
     }
 
     .navbar-default.affix {
@@ -204,7 +204,7 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #D5A658;
+        color: #F2B02A;
     }
 
     .navbar-default.affix .nav > li>a,
@@ -214,7 +214,7 @@ aside {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #D5A658;
+        color: #F2B02A;
     }
 }
 
@@ -233,7 +233,7 @@ header {
 }
 
 .header{
-	background-image: url(../img/ISEEGIF.gif);
+	background-image: url(../img/FINAL.gif);
 	
 }
 
@@ -445,7 +445,7 @@ header .header-content .header-content-inner p {
 }
 
 .text-primary {
-    color: #f05f40;
+    color: #F2B02A;
 }
 
 .no-gutter > [class*=col-] {

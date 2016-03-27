@@ -115,8 +115,8 @@ padding: 50px 0;
 }
 
 .store-pic{
-width: 300px;
-height: 300px;
+width: 200px;
+height: 200px;
 	
 	background-position: center;
 	-webkit-background-size: cover;
@@ -272,11 +272,11 @@ color: #fff;
 
 
 .unknown{
-width: 300px;
-height: 300px;
-	-moz-border-radius: 600px 600px;
-	-webkit-border-radius:600px 600px;
-	border-radius: 600px 600px;
+width: 200px;
+height: 200px;
+	-moz-border-radius: 200px 200px;
+	-webkit-border-radius:200px 200px;
+	border-radius: 200px 200px;
 
 	background-image: url(../img/picture/speaker2.png);
 	background-position: center;

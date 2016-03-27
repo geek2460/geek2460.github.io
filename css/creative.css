@@ -3,7 +3,7 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
 html,
 	body {
 width: 100%;
@@ -12,7 +12,7 @@ height: 100%;
 
 
 body {
-	font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+	font-family: 'Noto Sans TC', sans-serif;
 }
 
 hr {
@@ -43,20 +43,20 @@ h1,
 	h4,
 	h5,
 	h6 {
-		font-family: Microsoft JhengHei;
+		font-family: 'Noto Sans TC', sans-serif;
 	}
 
 .title {
-	font-family: Meiryo ;
+	font-family: 'Noto Sans TC', sans-serif;
 	font-size: 100px;
 
 
 }
 
 p {
-	font-family: Microsoft JhengHei;
+	font-family: 'Noto Sans TC', sans-serif;
 	margin-bottom: 20px;
-	font-size: 16px;
+	font-size: 20px;
 	line-height: 1.5;
 
 }
@@ -134,7 +134,7 @@ padding: 0;
 
 .navbar-default {
 	border-color: rgba(34,34,34,.05);
-	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	font-family: 'Noto Sans TC', sans-serif; 	
 	background-color: #fff;
 	-webkit-transition: all .35s;
 	-moz-transition: all .35s;
@@ -143,7 +143,7 @@ transition: all .35s;
 
 .navbar-default .navbar-header .navbar-brand {
 	text-transform: uppercase;
-	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	font-family:  'Noto Sans TC', sans-serif;
 	font-weight: 700;
 color: #F2B02A;/** #f05f40 orange color*/
 }
@@ -156,7 +156,7 @@ color: #F2B02A;
 .navbar-default .nav > li>a,
 	.navbar-default .nav>li>a:focus {
 		text-transform: uppercase;
-		font-size: 13px;
+		font-size: 11px;
 		font-weight: 700;
 color: #222;
 	}
@@ -323,6 +323,12 @@ width: 100px;
 	border-width:5px;
 	border-style:solid;
 	border-color:#F2B02A;
+
+	padding-right:2cm;
+	padding-left:2cm;
+	padding-bottom:1cm;
+
+
 }
 
 
@@ -343,11 +349,16 @@ height: 300px;
 
 .circle{
 
-width: 300px;
-height: 300px;
-	-moz-border-radius: 600px 600px;
-	-webkit-border-radius:600px 600px;
-	border-radius: 600px 600px;
+width: 200px;
+height: 200px;
+border-width:5px;
+        border-style:solid;
+	        border-color:#F2B02A;
+	background-color:#6DD0CD;
+
+	-moz-border-radius: 150px 150px;
+	-webkit-border-radius:150px 150px;
+	border-radius: 150px 150px;
 
 }
 header .header-content {
@@ -455,7 +466,7 @@ transform: translateY(-50%);
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 	.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
 padding: 0 15px;
-	 font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	 font-family:  'Noto Sans TC', sans-serif;;
 	}
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -498,8 +509,8 @@ color: #F2B02A;
 
 .btn-default {
 	border-color: #fff;
-color: #222;
-       background-color: #fff;
+color: #fff;
+       background-color: #6DD0CD;
        -webkit-transition: all .35s;
        -moz-transition: all .35s;
 transition: all .35s;
@@ -583,7 +594,7 @@ color:  #F2B02A;
 border: 0;
 	border-radius: 300px;
 	text-transform: uppercase;
-	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	font-family:  'Noto Sans TC', sans-serif;
 	font-weight: 700;
 }
 

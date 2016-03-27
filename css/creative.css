@@ -236,10 +236,8 @@ header {
 position: relative;
 width: 100%;
        min-height: auto;
-       text-align: center;
 color: #fff;
-
-       background-position: center;
+	background-position: center;
        -webkit-background-size: cover;
        -moz-background-size: cover;
        background-size: cover;
@@ -363,11 +361,9 @@ height: 200px;
 }
 header .header-content {
 position: relative;
-width:100%;
-min-height: auto;
-	    -moz-background-size: cover;
-	    background-size: cover;
-
+  text-align: center;
+    padding: 100px 15px 100px;
+      width: 100%;
 }
 
 header .header-content .header-content-inner h1 {

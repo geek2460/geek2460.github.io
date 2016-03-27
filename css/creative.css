@@ -289,13 +289,42 @@ height: 300px;
 .company{
 width: 300px;
        min-height: auto;
-       background-image: url(../img/picture/研華.jpg);
        background-position: center;
        -webkit-background-size: cover;
        -moz-background-size: cover;
        background-size: cover;
        -o-background-size: cover;
+
 }
+
+.icon1{
+width: 100px;
+       min-height: auto;
+       background-position: center;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       background-size: cover;
+       -o-background-size: cover;
+
+}
+
+.icon2{
+width: 100px;
+       min-height: auto;
+       background-position: center;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       background-size: cover;
+       -o-background-size: cover;
+
+}
+
+.boarder{
+	border-width:5px;
+	border-style:solid;
+	border-color:#F2B02A;
+}
+
 
 .speaker1 {
 width: 300px;
@@ -482,7 +511,7 @@ transition: all .35s;
 	.btn-default:active,
 	.btn-default.active,
 	.open > .dropdown-toggle.btn-default {
-		border-color: #ededed;
+		border-color:  #F2B02A;
 color: #222;
        background-color: #f2f2f2;
 	}
@@ -508,36 +537,13 @@ color: #222;
 	.btn-default.disabled:active,
 	.btn-default[disabled]:active,
 	fieldset[disabled] .btn-default:active,
-	.btn-default.disabled.active,
-	.btn-default[disabled].active,
-	fieldset[disabled] .btn-default.active {
-		border-color: #fff;
-		background-color: #fff;
-	}
-
-.btn-default .badge {
-color: #fff;
-       background-color: #222;
-}
-
-.btn-primary {
-	border-color: #f05f40;
-color: #fff;
-       background-color: #f05f40;
-       -webkit-transition: all .35s;
-       -moz-transition: all .35s;
-transition: all .35s;
-}
-
-.btn-primary:hover,
-	.btn-primary:focus,
 	.btn-primary.focus,
 	.btn-primary:active,
 	.btn-primary.active,
 	.open > .dropdown-toggle.btn-primary {
 		border-color: #ed431f;
-color: #fff;
-       background-color: #ee4b28;
+color:  #F2B02A;
+       background-color:  #F2B02A;
 	}
 
 .btn-primary:active,
@@ -565,12 +571,12 @@ color: #fff;
 	.btn-primary[disabled].active,
 	fieldset[disabled] .btn-primary.active {
 		border-color: #f05f40;
-		background-color: #f05f40;
+		background-color:   #F2B02A;
 	}
 
 .btn-primary .badge {
-color: #f05f40;
-       background-color: #fff;
+color:  #F2B02A;
+       background-color:  #F2B02A;
 }
 
 .btn {

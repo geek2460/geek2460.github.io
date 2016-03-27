@@ -363,17 +363,15 @@ height: 200px;
 }
 header .header-content {
 position: relative;
-	  text-align: center;
-margin:0;
-padding:0;
-background: center center fixed no-repeat;
+width:100%;
+min-height: auto;
 	    -moz-background-size: cover;
 	    background-size: cover;
 
 }
 
 header .header-content .header-content-inner h1 {
-	margin-top: 200px;
+	margin-top: 0;
 	margin-bottom: 0;
 	text-transform: uppercase;
 	font-weight: 700;

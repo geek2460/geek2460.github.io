@@ -7,6 +7,26 @@ if ( navigator.appVersion.indexOf("Mac")!=-1 )
 
 // When DOM is fully loaded
 jQuery(document).ready(function($) {
+	$('.main-menu').click(function(){
+		$(".sub-menu").hide();
+		});
+	
+	$('.main-menu-1').click(function(){
+		$(".sub-menu").hide();
+		$(".sub-menu-1").slideDown("slow");
+				});
+	$('.main-menu-2').click(function(){
+		$(".sub-menu").hide();
+		$(".sub-menu-2").slideDown("slow");
+				});
+	$('.main-menu-3').click(function(){
+		$(".sub-menu").hide();
+		$(".sub-menu-3").slideDown("slow");
+				});
+	$('.main-menu-4').click(function(){
+		$(".sub-menu").hide();
+		$(".sub-menu-4").slideDown("slow");
+				});
 
 /* --------------------------------------------------------	
 	 External Links
@@ -109,6 +129,8 @@ jQuery(document).ready(function($) {
 					filter_projects(selector);
 					return false;
 				});
+				//hash tag btn
+				
 				// filter tags if location.has is available. e.g. http://example.com/work.html#design will filter projects within this category
 				if (window.location.hash!='')
 				{

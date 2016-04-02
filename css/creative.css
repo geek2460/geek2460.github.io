@@ -254,6 +254,8 @@ color: #fff;
 	background-image: url(../img/picture/ldpage.png);
 	background-size: 100% auto;
     background-repeat: no-repeat;
+	margin-bottom: 0px;
+	margin-top: 0px;
 	
 
 }
@@ -263,12 +265,18 @@ color: #fff;
 	background-image: url(../img/picture/ldpage2.png);
 	background-size: 100% auto;
     background-repeat: no-repeat;
+	margin-bottom: 0px;
+	margin-top: 0px;
 
 }
 
 .temp-section3 {
 
 	background-image: url(../img/picture/ldpage3.png);
+	background-size: 100% auto;
+    background-repeat: no-repeat;
+	margin-bottom: 0px;
+	margin-top: 0px;
 
 }
 

@@ -292,6 +292,8 @@ width: 300px;
        -moz-background-size: cover;
        background-size: cover;
        -o-background-size: cover;
+	   margin-top: 2cm;
+	   margin-bottom :2cm;
 
 }
 
@@ -597,7 +599,9 @@ border: 0;
 }
 
 .btn-xl {
-padding: 15px 30px;
+padding: 30px 50px;
+margin-top: 0.5cm;
+margin-bottom :0.5cm;
 }
 
 ::-moz-selection {

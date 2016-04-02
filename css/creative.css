@@ -286,7 +286,8 @@ height: 200px;
 }
 .company{
 width: 300px;
-background-image: url(../img/picture/研華.jpg);
+
+background-image: url(../img/picture/Advantech.png);
        min-height: auto;
        background-position: center;
        -webkit-background-size: cover;

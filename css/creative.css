@@ -252,6 +252,8 @@ color: #fff;
 .temp-section1{
 
 	background-image: url(../img/picture/ldpage.png);
+	background-size: 100% auto;
+    background-repeat: no-repeat;
 	
 
 }
@@ -259,6 +261,8 @@ color: #fff;
 .temp-section2 {
 
 	background-image: url(../img/picture/ldpage2.png);
+	background-size: 100% auto;
+    background-repeat: no-repeat;
 
 }
 

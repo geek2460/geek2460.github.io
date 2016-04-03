@@ -342,6 +342,21 @@ width: 150px;
 
 }
 
+.Taipei-101{
+width: 150px;
+
+
+       min-height: auto;
+       background-position: center;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       background-size: cover;
+       -o-background-size: cover;
+	   margin-top: 2cm;
+	   margin-bottom :2cm;
+
+}
+
 .icon1{
 width: 100px;
        min-height: auto;

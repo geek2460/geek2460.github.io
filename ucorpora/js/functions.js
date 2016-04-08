@@ -27,6 +27,11 @@ jQuery(document).ready(function($) {
 		$(".sub-menu").hide();
 		$(".sub-menu-4").slideDown("slow");
 				});
+				
+	$('.mybtn').click(function(){
+		$(".mybtn").hide();
+		$(".myvideo").fadeIn("slow");
+		});
 
 /* --------------------------------------------------------	
 	 External Links

@@ -52,9 +52,21 @@ body {
     color: #333;
 }
 
-footer {
-    margin: 50px 0;
+footer{
+	position:fixed;
+	top: 0px;
+    right:0px;
 }
+
+.fixed-subbtn
+{
+		width:30px;
+		height:auto;
+		margin-bottom:30px;
+		padding:30px;
+		background-color:#5bc0de;
+}
+
 .video-container {
     position: relative;
     padding-bottom: 56.25%;

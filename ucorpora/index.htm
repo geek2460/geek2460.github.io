@@ -30,6 +30,13 @@
 
   <!-- FlexSlider Style -->
   <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen">
+  
+  
+  <script src="http://www.youtube.com/player_api"></script>
+  
+  
+	
+	
 
 	<!-- Internet Explorer condition - HTML5 shim, for IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
@@ -57,7 +64,7 @@
 	            <a href="#" title="Hide navigation">Hide navigation</a>
 	            <ul class="clearfix">
 	           	<li class="active"><a href="index.htm" title="">首頁資訊</a></li>
-                <li><a href="about-us.htm"  onClick="MyWindow=window.open('about-us.htm','MyWindow',width=600,height=300); return false;"title=""title="">加入會員</a></li>                
+                <li><a href="about-us.htm" id="navibarchoice" onClick="MyWindow=window.open('about-us.htm','MyWindow',width=600,height=300); return false;"title=""title="">加入會員</a></li>                
                 <li><a href="gallery.htm" title="">產品資訊</a></li>
                 <li><a href="services.htm" title="">預約參觀</a></li>
                 
@@ -73,29 +80,32 @@
 	           
 			   </ul>
           </nav>
-         </div> 
-      </div> 
-       <div class="row space40"></div>
-	   <div class="f-center">
-			<button class="btn mybtn  f-center">customer</button>
-			<button class="btn mybtn f-center">boss</button>
-	   </div>
-          <div class = "f-center myvideo" style="display:none">  <!-- Slider -->
-			<iframe width="760" height="480" src="https://www.youtube.com/embed/RDdhD3BSuI0?autoplay=1" frameborder="0" allowfullscreen></iframe>
-          </div>  <!-- Slider End -->
-  </div> 
+        </div> 
+		
+		<div class="row space40"></div>
+		<div class="row f-center">
+			<div class="fixed">
+				立即加入會員，獲得客製化解決方案診斷書！
+				<div>
+					<button class="btn mybtn1 f-center">查看更多</button>
+					<button class="btn mybtn2 f-center">加入會員</button>
+				</div>
+			</div>
+			
+			<div class="video-container">
+				<div id="player"></div>  <!-- Slider End -->
+			</div>
+		</div> 
 </header>
   <!-- Header End -->
   <!-- Content -->
   <div id="content">
     <div class="container">
-       <div class="f-center">
-              
-       </div>
-       <div class="f-hr"></div>
+       
+      <div class="f-hr"></div>
       <div class="row space40"></div>
       <div class="row">
-        <div class="span12">
+        <div class="span12 service_section">
           <div class="row">
             <!-- Service Container --> 
             <div class="span3">
@@ -321,6 +331,34 @@
   <script type="text/javascript" src="js/bootstrap.min.js"></script>  
   <script type="text/javascript" src="js/functions.js"></script>
   <script type="text/javascript" defer src="js/jquery.flexslider.js"></script>
+  <script>
+    
+    // create youtube player
+    var player;
+    function onYouTubePlayerAPIReady() {
+        player = new YT.Player('player', {
+          
+          videoId: 'H6SsB3JYqQg',
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+    }
+
+    // autoplay video
+    function onPlayerReady(event) {
+        event.target.playVideo();
+    }
+
+    // when video ends
+    function onPlayerStateChange(event) {        
+        if(event.data === 0) {            
+            $(".fixed").fadeIn("slow");
+        }
+    }
+    
+	</script>
 
 </body>
 </html>

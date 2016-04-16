@@ -28,9 +28,14 @@ jQuery(document).ready(function($) {
 		$(".sub-menu-4").slideDown("slow");
 				});
 				
-	$('.mybtn').click(function(){
-		$(".mybtn").hide();
-		$(".myvideo").fadeIn("slow");
+	$('.fixed').click(function(){
+		$(".fixed").hide();
+		});
+	$('.mybtn2').click(function(){
+		document.getElementById("navibarchoice").click()
+		});
+	$('.mybtn1').click(function(){
+		document.getElementById("navibarchoice").click()
 		});
 
 /* --------------------------------------------------------	

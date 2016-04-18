@@ -103,7 +103,7 @@ body {
 	width:auto;
 	height:80%;
 	background-color:#F2B02A;
-    //display: none;
+    display: none;
 	left: 50%;
     transform: translate(-50%, 0);
 }

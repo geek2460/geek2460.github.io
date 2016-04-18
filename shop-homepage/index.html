@@ -76,7 +76,7 @@
 	<section>
     <div class="container">
 
-        <div class="row">
+        <div class="row leftsode-row">
 			<div class="popout-page  f-center">
 				立即加入會員，獲得客製化解決方案診斷書！
 				<div>
@@ -86,7 +86,7 @@
 				</div>
 			</div>
 			
-			<div class="video-container">
+			<div class="video-container col-lg-12 col-lg-offset-1">
 				<div id="player"></div>  <!-- Slider End -->
 			</div>
             
@@ -98,7 +98,7 @@
 	
 	<section class="services">
         <div class="container">
-            <div class="row text-center">
+            <div class="row leftsode-row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
                     
                     <hr class="small">
@@ -181,21 +181,18 @@
     </section>
 	
 
-    <div class="container">
-
-        <hr>
+    
 
         <!-- Footer -->
-        <footer>
+        <div class="rightside-fixed">
             <div>
                     <div class="fixed-subbtn">Line一下！立即洽談</div>
 					<div class="fixed-subbtn">獲得客製化解決方案診斷書</div>
             </div>
             
-        </footer>
+        </div>
 
-    </div>
-    <!-- /.container -->
+   
 	
 	<script>
     // create youtube player
@@ -214,6 +211,7 @@
     // autoplay video
     function onPlayerReady(event) {
         event.target.playVideo();
+		player.stopVideo();
     }
 
     // when video ends

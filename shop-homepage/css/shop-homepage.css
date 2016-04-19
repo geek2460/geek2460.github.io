@@ -54,7 +54,7 @@ body {
 
 .rightside-fixed{
 	position:fixed;
-	top: 30%;
+	top: 70px;
     right:0px;
 }
 

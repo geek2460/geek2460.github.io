@@ -1465,6 +1465,7 @@ dd {
   .dl-horizontal dd {
     margin-left: 180px;
   }
+  
 }
 abbr[title],
 abbr[data-original-title] {
@@ -2914,7 +2915,18 @@ select[multiple].input-lg {
   margin-bottom: 10px;
   color: #737373;
 }
+
+
 @media (min-width: 768px) {
+	#mybtn{
+		display: inline-block;
+	}
+	
+	.mylist{
+		
+		display:none;
+	}
+	
   .form-inline .form-group {
     display: inline-block;
     margin-bottom: 0;

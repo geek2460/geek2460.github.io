@@ -61,12 +61,13 @@ body {
 .fixed-subbtn
 {
 	font-size:15px;
-	width:50px;
+	width:30px;
 	height:auto;
 	margin-bottom:30px;
 	padding:10px;
 	background-color:#5bc0de;
 }
+
 
 
 .leftsode-row{
@@ -107,9 +108,78 @@ body {
 	left: 50%;
     transform: translate(-50%, 0);
 }
+
+.popout-intro{
+	position: fixed;
+    top: 30px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    padding: 30px;
+    z-index: 10000;  /* Thanks Diego for pointing out the typo here */
+	width:auto;
+	height:80%;
+	background-color:#F2B02A;
+    display: none;
+	left: 50%;
+    transform: translate(-50%, 0);
+}
 .f-center{
 	text-align: center; 
 }
+.mylist{
+		display:none;
+}
+
+.togglebtn{
+	margin-top:0;
+	margin-left:0px;
+	margin-bottom:20px;
+	font-size:20px;
+	display:inline-block;
+	width:100%;
+}
+
+#mybtn{
+	width:100%;
+	margin-bottom:20px;
+}
+
+.leftside{
+	padding-left:30px;
+	
+}
+
+.myul{
+	width:100%;
+}
+
+#colorbtn{
+		margin-left:0;
+		width:100%;
+		height:50px;
+		margin-top:0;
+}
+
+#colorbtn-single{
+		margin-left:0;
+		height:50px;
+		width:100%;
+		margin-top:10px;
+	
+}
+
+@media (min-width: 768px) {
+	.togglebtn{
+		display: none;
+	}
+	
+	.mylist{
+		display:inline-block;
+	}
+}
+
 .img
 {
 	height: auto;

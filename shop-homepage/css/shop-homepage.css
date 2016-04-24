@@ -102,7 +102,7 @@ body {
     padding: 30px;
     z-index: 10000;  /* Thanks Diego for pointing out the typo here */
 	width:auto;
-	height:80%;
+	height:auto;
 	background-color:#F2B02A;
     display: none;
 	left: 50%;
@@ -119,11 +119,64 @@ body {
     padding: 30px;
     z-index: 10000;  /* Thanks Diego for pointing out the typo here */
 	width:auto;
-	height:80%;
+	height:auto;
 	background-color:#F2B02A;
     display: none;
 	left: 50%;
     transform: translate(-50%, 0);
+}
+
+.popout-group1{
+	position: fixed;
+    top: 30px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    padding: 10px;
+    z-index: 10000;  /* Thanks Diego for pointing out the typo here */
+	width:90%;
+	height:auto;
+	background-color:#F2B02A;
+    display: none;
+	left: 50%;
+    transform: translate(-50%, 0);
+}
+.img-group1{
+	width:100%;
+	height:auto;
+}
+
+
+@media (min-width: 768px) {
+	.popout-group1{
+	width:90%;
+	height:90%;
+	}
+	
+	.img-group1{
+	width:100%;
+	height:100%;
+	}
+	
+}
+
+#btn1-group1{
+	position:absolute;
+	top:30px;
+	left:100px;
+}
+
+#text1-group1{
+	position:absolute;
+	top:30px;
+	left:200px;
+	width:300px;
+	height:auto;
+	background-color:rgba(5, 5, 5, 0.5);
+	border: 1px solid black;
+    padding: 10px;
+	color:#fff;
 }
 .f-center{
 	text-align: center; 
@@ -150,9 +203,18 @@ body {
 	padding-left:30px;
 	
 }
-
+.btn-set{
+	width:200px;
+	
+}
 .myul{
 	width:100%;
+}
+
+.linkfooter{
+	margin-bottom:20px;
+	width:100%;
+	margin-top:0px;
 }
 
 #colorbtn{

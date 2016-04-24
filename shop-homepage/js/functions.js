@@ -30,4 +30,17 @@ jQuery(document).ready(function($) {
 	$('.popout-intro').click(function(){
 		$(".popout-intro").hide();
 	});
+	
+	$('.group1').click(function(){
+		$(".popout-group1").fadeIn("slow");
+	});
+	
+	$('.popout-group1').click(function(){
+		$(".popout-group1").hide("slow");
+	});
+	
+	$('#btn1-group1').click(function(){
+		document.location.href='product_resturant.html';
+	});
+	
 });

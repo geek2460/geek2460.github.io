@@ -160,24 +160,55 @@ body {
 	}
 	
 }
-
+.feature{
+	color:#F2B02A;
+}
 #btn1-group1{
 	position:absolute;
-	top:30px;
-	left:100px;
+	top:10%;
+	left:13%;
+	
 }
 
 #text1-group1{
 	position:absolute;
-	top:30px;
-	left:200px;
-	width:300px;
+	top:10%;
+	left:25%;
+	width:auto;
 	height:auto;
 	background-color:rgba(5, 5, 5, 0.5);
 	border: 1px solid black;
     padding: 10px;
 	color:#fff;
+	
 }
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+}
+
 .f-center{
 	text-align: center; 
 }

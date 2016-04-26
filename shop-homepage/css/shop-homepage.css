@@ -93,7 +93,7 @@ body {
 }
 
 .popout-page{
-	position: fixed;
+	position: absolute;
     top: 30px;
     
     margin-left: auto;
@@ -110,7 +110,7 @@ body {
 }
 
 .popout-intro{
-	position: fixed;
+	position: absolute;
     top: 30px;
     
     margin-left: auto;
@@ -127,7 +127,7 @@ body {
 }
 
 .popout-group1{
-	position: fixed;
+	position: absolute;
     top: 30px;
     
     margin-left: auto;

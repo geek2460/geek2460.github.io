@@ -42,5 +42,7 @@ jQuery(document).ready(function($) {
 	$('#btn1-group1').click(function(){
 		document.location.href='product_resturant.html';
 	});
-	
+	$('.doctorU').click(function(){
+		document.location.href='img/doctorU.jpg';
+	});
 });

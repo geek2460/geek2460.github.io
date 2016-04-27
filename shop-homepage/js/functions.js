@@ -52,7 +52,8 @@ jQuery(document).ready(function($) {
 		$('#production-img-1').attr("src","http://www.ushop-iotmart.com.tw/resource/Widget/Unzip/ATW/IoTMart-retail/images/IoTMart-retail_bannerMain.jpg");
 	});
 	$('.doctorU').click(function(){
-		document.location.href='img/doctorU.jpg';
+		window.open('img/doctorU.jpg', '_blank');
+		
 	});
 	
 	$('#btn1-group1').hover(function(){

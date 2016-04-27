@@ -20,10 +20,18 @@ jQuery(document).ready(function($) {
 		document.getElementById("solutionbtn").click()
 		});
 	$('#solutionbtn').click(function(){
+		var $body = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body');
+		$body.animate({
+			scrollTop: 0
+		}, 600);
 		$(".popout-intro").fadeIn("slow");
 	});
 	
 	$('#solutionbtn2').click(function(){
+		var $body = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body');
+		$body.animate({
+			scrollTop: 0
+		}, 600);
 		$(".popout-intro").fadeIn("slow");
 	});
 	
@@ -40,9 +48,14 @@ jQuery(document).ready(function($) {
 	});
 	
 	$('#btn1-group1').click(function(){
-		document.location.href='product_resturant.html';
+		
+		$('#production-img-1').attr("src","http://www.ushop-iotmart.com.tw/resource/Widget/Unzip/ATW/IoTMart-retail/images/IoTMart-retail_bannerMain.jpg");
 	});
 	$('.doctorU').click(function(){
 		document.location.href='img/doctorU.jpg';
+	});
+	
+	$('#btn1-group1').hover(function(){
+		$('#text1-group1').toggle();
 	});
 });

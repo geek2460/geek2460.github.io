@@ -50,6 +50,15 @@ jQuery(document).ready(function($) {
 	$('#btn1-group1').click(function(){
 		
 		$('#production-img-1').attr("src","http://www.ushop-iotmart.com.tw/resource/Widget/Unzip/ATW/IoTMart-retail/images/IoTMart-retail_bannerMain.jpg");
+		$('#production-img-2').attr("src","http://www.ushop-iotmart.com.tw/resource/Widget/Unzip/ATW/IoTMart-retail/images/IoTMart-retail_bannerMain.jpg");
+		$('#production-img-3').attr("src","http://www.ushop-iotmart.com.tw/resource/Widget/Unzip/ATW/IoTMart-retail/images/IoTMart-retail_bannerMain.jpg");
+		$('#production-img-3').attr("src","http://www.ushop-iotmart.com.tw/resource/Widget/Unzip/ATW/IoTMart-retail/images/IoTMart-retail_bannerMain.jpg");
+		$('#production-item-img-1').attr("src","http://www.ushop-iotmart.com.tw/resource/Widget/Unzip/ATW/IoTMart-retail/images/IoTMart-retail_bannerMain.jpg");
+		$('#production-item-img-2').attr("src","http://www.ushop-iotmart.com.tw/resource/Widget/Unzip/ATW/IoTMart-retail/images/IoTMart-retail_bannerMain.jpg");
+		$('#production-item-img-3').attr("src","http://www.ushop-iotmart.com.tw/resource/Widget/Unzip/ATW/IoTMart-retail/images/IoTMart-retail_bannerMain.jpg");
+		$('#production-item-img-4').attr("src","http://www.ushop-iotmart.com.tw/resource/Widget/Unzip/ATW/IoTMart-retail/images/IoTMart-retail_bannerMain.jpg");
+		$('#production-item-img-5').attr("src","http://www.ushop-iotmart.com.tw/resource/Widget/Unzip/ATW/IoTMart-retail/images/IoTMart-retail_bannerMain.jpg");
+	
 	});
 	$('.doctorU').click(function(){
 		window.open('img/doctorU.jpg', '_blank');
